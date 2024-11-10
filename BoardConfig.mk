@@ -7,15 +7,16 @@
 # Include the common OEM chipset BoardConfig.
 include device/samsung/sm8550-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/gts9wifi
+DEVICE_PATH := device/samsung/gts9pwifi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := gts9wifi
+TARGET_OTA_ASSERT_DEVICE := gts9pwifi
 
 # Display
 TARGET_SCREEN_DENSITY := 350
 
 # Kernel
+# 此处修改暂定，可能是内核配置文件，所以未修改
 TARGET_KERNEL_CONFIG := gts9wifi_defconfig
 
 # Kernel Modules
