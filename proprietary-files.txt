@@ -152,7 +152,7 @@ system/usr/idc/sec_e-pen.idc:vendor/usr/idc/sec_e-pen.idc
 system/usr/idc/wacom_hall.idc:vendor/usr/idc/wacom_hall.idc
 
 # Pen
-vendor/firmware/wez01_gts9.bin
+vendor/firmware/wez01_gts9p.bin
 
 # Display calibration data
 vendor/etc/display/backlight_calib_r66451_amoled_cmd_mode_dsi_visionox_panel_with_DSC.xml
@@ -180,7 +180,7 @@ vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_cmd_mode_dsi_visionox_panel_w
 vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_cmd_mode_dsi_visionox_panel_with_DSC.json
 vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_video_mode_dsi_visionox_panel_with_DSC.json
 vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.json
-vendor/firmware/GTS9_ANA38407_AMSA10FA01.dat
+vendor/firmware/GTS9P_ANA38407_AMSA24VU05.dat
 
 # Sensors config
 vendor/etc/sensors/config/kailua_ak991x_5.json
@@ -195,8 +195,7 @@ vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.ssc.so
 
 # Touchscreen firmware
-vendor/firmware/tsp_stm/fts1ba90a_gts8p.bin
-vendor/firmware/tsp_stm/fts1ba90a_gts9.bin
+vendor/firmware/tsp_stm/fts1ba90a_gts9p.bin
 
 # Vendor firmware
 vendor/firmware/hpbtfw21.tlv
@@ -231,9 +230,9 @@ vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini
 
 # VPU
 vendor/firmware/vpu30_4v.mbn
-vendor/firmware/abov/a96t396_gts9_wifi.bin
+vendor/firmware/abov/a96t396_gts9p_wifi.bin
 vendor/firmware/tsp_stm/fts1ba90a_gts8p.bin
-vendor/firmware/tsp_stm/fts1ba90a_gts9.bin
+vendor/firmware/tsp_stm/fts1ba90a_gts9p.bin
 vendor/firmware/a740_zap.mbn
 vendor/firmware/a740_zap.mdt
 vendor/firmware/evass.mbn
