@@ -16,6 +16,7 @@ TARGET_SCREEN_HEIGHT := 1752
 TARGET_SCREEN_WIDTH := 2800
 
 # Init
+# 不敢改
 PRODUCT_PACKAGES += \
     init.gts9wifi.rc
 
@@ -39,4 +40,5 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/samsung/sm8550-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/samsung/gts9wifi/gts9wifi-vendor.mk)
+# 修改vendor，后面需要改vendor库命名
+$(call inherit-product, vendor/samsung/gts9pwifi/gts9pwifi-vendor.mk)
