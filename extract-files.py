@@ -10,8 +10,10 @@ from extract_utils.main import (
 namespace_imports = [
     'vendor/samsung/sm8550-common',
 ]
+
+# 修改名称（不知道对不对
 module = ExtractUtilsModule(
-    'gts9wifi',
+    'gts9pwifi',
     'samsung',
     namespace_imports=namespace_imports,
     check_elf=True,
