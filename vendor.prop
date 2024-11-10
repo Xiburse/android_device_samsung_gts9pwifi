@@ -8,8 +8,10 @@ ro.crypto.metadata_init_delete_all_keys.enabled=true
 
 # udfpsProps
 ro.vendor.fingerprint.type=udfps_optical
-ro.vendor.fingerprint.sensor_location=800|2300|90
-ro.vendor.fingerprint.request_touch_event=true
+
+# 这个指纹识别不会改，两个先注释掉
+# ro.vendor.fingerprint.sensor_location=800|2300|90
+# ro.vendor.fingerprint.request_touch_event=true
 
 # surfaceflinger
 debug.sf.disable_backpressure=1
