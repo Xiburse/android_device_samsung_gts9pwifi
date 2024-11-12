@@ -24,6 +24,6 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc=$(call normalize-path-list,"gts9pwifixx-user 14 UP1A.231005.007 X710XXU4BXHB release-keys")
+    BuildDesc=$(call normalize-path-list,"gts9pwifixx-user 14 UP1A.231005.007 X810XXU4BXHB release-keys")
 
-BUILD_FINGERPRINT := samsung/gts9pwifixx/gts9pwifi:14/UP1A.231005.007/X710XXU4BXHB:user/release-keys
+BUILD_FINGERPRINT := samsung/gts9pwifixx/gts9pwifi:14/UP1A.231005.007/X810XXU4BXHB:user/release-keys
