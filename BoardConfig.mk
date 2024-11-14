@@ -19,6 +19,8 @@ TARGET_SCREEN_DENSITY := 350
 # 此处修改暂定，可能是内核配置文件，所以未修改
 TARGET_KERNEL_CONFIG := gts9wifi_defconfig
 
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Kernel Modules
 BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
 BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.system_dlkm))
