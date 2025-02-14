@@ -7,6 +7,9 @@
 # Include the common OEM chipset BoardConfig.
 include device/samsung/sm8550-common/BoardConfigCommon.mk
 
+# Tablet
+TARGET_IS_TABLET := true
+
 DEVICE_PATH := device/samsung/gts9pwifi
 
 # Assert
@@ -64,3 +67,11 @@ TARGET_KERNEL_EXT_MODULES := \
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+<<<<<<< HEAD
+=======
+
+TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/samsung:libudfps_extension.samsung
+
+# SEPolicy (for bootanimation rotation)
+PRODUCT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
+>>>>>>> 1e08e76700288e44f1ce7a7f4a470af787b4e455
