@@ -25,7 +25,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Init
 # 不敢改
 PRODUCT_PACKAGES += \
-    init.gts9wifi.rc
+    init.gts9pwifi.rc
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
