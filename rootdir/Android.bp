@@ -6,8 +6,8 @@
 
 // Init configuration files
 prebuilt_etc {
-    name: "init.gts9wifi.rc",
-    src: "etc/init.gts9wifi.rc",
+    name: "init.gts9pwifi.rc",
+    src: "etc/init.gts9pwifi.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
