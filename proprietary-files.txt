@@ -13,6 +13,13 @@ vendor/firmware/bt_nvm_loading.xml
 vendor/firmware/bt_nvm_loading_2nd.xml
 
 # Camera
+vendor/lib64/camera/com.qti.eeprom.sec2qcconversion.so
+vendor/lib64/camera/com.samsung.sensormodule.0_hynix_hi1337.bin
+vendor/lib64/camera/com.samsung.sensormodule.1_hynix_hi1337_front.bin
+vendor/lib64/camera/com.samsung.sensormodule.12_hynix_hi1337_front_full.bin
+vendor/lib64/camera/com.samsung.tuned.hynix_hi1337_front_full.bin
+vendor/lib64/camera/com.samsung.tuned.hynix_hi1337_front.bin
+vendor/lib64/camera/com.samsung.tuned.hynix_hi1337.bin
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
 vendor/lib64/camera/components/com.qti.hvx.addconstant.so
@@ -84,20 +91,14 @@ vendor/lib64/camera/components/com.ss.stats.aec.so
 vendor/lib64/camera/components/com.ss.stats.af.so
 vendor/lib64/camera/components/com.ss.stats.awb.so
 vendor/lib64/camera/components/com.ss.stats.pdlib.so
-vendor/lib64/camera/components/libTsAeFront_tabs9.so;FIX_SONAME
-vendor/lib64/camera/components/libTsAe_tabs9.so;FIX_SONAME
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
-vendor/lib64/camera/com.qti.eeprom.sec2qcconversion.so
-vendor/lib64/camera/com.samsung.sensormodule.0_hynix_hi1337.bin
-vendor/lib64/camera/com.samsung.sensormodule.12_hynix_hi1337_front_full.bin
-vendor/lib64/camera/com.samsung.sensormodule.1_hynix_hi1337_front.bin
-vendor/lib64/camera/com.samsung.tuned.hynix_hi1337.bin
-vendor/lib64/camera/com.samsung.tuned.hynix_hi1337_front.bin
-vendor/lib64/camera/com.samsung.tuned.hynix_hi1337_front_full.bin
+vendor/lib64/camera/components/libTsAe_tabs9.so;FIX_SONAME
+vendor/lib64/camera/components/libTsAeFront_tabs9.so;FIX_SONAME
 vendor/lib64/camera/t_t10_dual_calibration.bin
 vendor/lib64/camera/uw_dual_calibration.bin
 vendor/lib64/camera/w_dual_calibration.bin
 vendor/lib64/com.qti.camx.chiiqutils.so
+vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/com.qti.feature2.afbrckt.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
@@ -122,34 +123,27 @@ vendor/lib64/com.qti.feature2.statsregeneration.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/com.qualcomm.mcx.distortionmapper.so
-
-vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.offline.so
 vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/libTsAf_TS9Q.so;FIX_SONAME
-vendor/lib64/libTsAwbFront_GTS9.so
-vendor/lib64/libTsAwb_GTS9.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcamxexternalformatutils.so
 vendor/lib64/libcamximageformatutils.so
 vendor/lib64/libcamxswispiqmodule.so
 vendor/lib64/libchifeature2.so
 vendor/lib64/libcom.qti.chinodeutils.so
-vendor/lib64/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/libsec2qc_conversion.so
+vendor/lib64/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/libtriplecam_image_optical_zoom.so
+vendor/lib64/libTsAf_TS9Q.so;FIX_SONAME
+vendor/lib64/libTsAwb_GTS9.so
+vendor/lib64/libTsAwbFront_GTS9.so
 
 # Camera firmware
+vendor/firmware/CAMERA_ICP.mbn
+vendor/firmware/cs35l45-dsp1-spk-prot-calib.bin
 vendor/firmware/cs35l45-dsp1-spk-prot.bin
 vendor/firmware/cs35l45-dsp1-spk-prot.wmfw
-vendor/firmware/cs35l45-dsp1-spk-prot-calib.bin
-vendor/firmware/CAMERA_ICP.mbn
-
-# Samsung Pen Hall
-system/usr/idc/hall_wacom.idc:vendor/usr/idc/hall_wacom.idc
-system/usr/idc/sec_e-pen.idc:vendor/usr/idc/sec_e-pen.idc
-system/usr/idc/wacom_hall.idc:vendor/usr/idc/wacom_hall.idc
 
 # Pen
 vendor/firmware/wez01_gts9p.bin
@@ -216,26 +210,23 @@ vendor/firmware/hpnv21g.bin
 vendor/firmware/qca6490/amss20.bin
 vendor/firmware/qca6490/bdwlan.elf
 vendor/firmware/qca6490/bdwlan.elf1
-vendor/firmware/qca6490/bdwlan.elf2
 vendor/firmware/qca6490/bdwlan.elf10
+vendor/firmware/qca6490/bdwlan.elf2
 vendor/firmware/qca6490/bdwlang.elf
 vendor/firmware/qca6490/bdwlang.elf1
-vendor/firmware/qca6490/bdwlang.elf2
 vendor/firmware/qca6490/bdwlang.elf10
+vendor/firmware/qca6490/bdwlang.elf2
 vendor/firmware/qca6490/m3.bin
 vendor/firmware/qca6490/regdb.bin
 
-# WiFi
-vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini
-
 # VPU
-vendor/firmware/vpu30_4v.mbn
-vendor/firmware/abov/a96t396_gts9p_wifi.bin
-vendor/firmware/tsp_stm/fts1ba90a_gts8p.bin
-vendor/firmware/tsp_stm/fts1ba90a_gts9p.bin
 vendor/firmware/a740_zap.mbn
 vendor/firmware/a740_zap.mdt
+vendor/firmware/abov/a96t396_gts9_wifi.bin
 vendor/firmware/evass.mbn
+vendor/firmware/tsp_stm/fts1ba90a_gts8p.bin
+vendor/firmware/tsp_stm/fts1ba90a_gts9.bin
+vendor/firmware/vpu30_4v.mbn
 
 # Stm32 keyboard
 vendor/firmware/keyboard_stm/stm32_gts9family.bin
