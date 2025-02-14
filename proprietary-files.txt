@@ -222,10 +222,10 @@ vendor/firmware/qca6490/regdb.bin
 # VPU
 vendor/firmware/a740_zap.mbn
 vendor/firmware/a740_zap.mdt
-vendor/firmware/abov/a96t396_gts9_wifi.bin
+vendor/firmware/abov/a96t396_gts9p_wifi.bin
 vendor/firmware/evass.mbn
 vendor/firmware/tsp_stm/fts1ba90a_gts8p.bin
-vendor/firmware/tsp_stm/fts1ba90a_gts9.bin
+vendor/firmware/tsp_stm/fts1ba90a_gts9p.bin
 vendor/firmware/vpu30_4v.mbn
 
 # Stm32 keyboard

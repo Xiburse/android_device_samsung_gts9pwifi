@@ -8,10 +8,7 @@
     <!-- Whether to enable framework dimming for UDFPS -->
     <bool name="config_udfpsFrameworkDimming">true</bool>
 
-<<<<<<< HEAD
-=======
      <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
           vibrator is capable of subtle vibrations -->
      <bool name="config_vibrateOnIconAnimation">true</bool>
->>>>>>> 1e08e76700288e44f1ce7a7f4a470af787b4e455
 </resources>
