@@ -27,10 +27,6 @@ TARGET_HAVE_SPEN := true
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-<<<<<<< HEAD:lineage_gts9pwifi.mk
     BuildDesc=$(call normalize-path-list,"gts9pwifixx-user 14 UP1A.231005.007 X810XXU4BXHB release-keys")
-=======
-    BuildDesc=$(call normalize-path-list,"gts9wifixx-user 14 UP1A.231005.007 X710XXU4BXHB release-keys")
->>>>>>> 1e08e76700288e44f1ce7a7f4a470af787b4e455:lineage_gts9wifi.mk
 
 BUILD_FINGERPRINT := samsung/gts9pwifixx/gts9pwifi:14/UP1A.231005.007/X810XXU4BXHB:user/release-keys
